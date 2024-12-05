@@ -79,7 +79,7 @@ def edit_image(pixart_model, src_image, instruction, config, device,
 def main(image_path, edit_instruction):
     ROOT_DIR = "./ckpt"
     CKPT_PATH = os.path.join(ROOT_DIR, 'epoch_40_step_90041.pth')
-    CONFIG_PATH = os.path.join('./configs/pixart_sigma_config/editing_at_512.py', "config.py")
+    CONFIG_PATH = './configs/pixart_sigma_config/editing_at_512.py'
     PIPELINE_LOAD_PATH = "output/pretrained_models/pixart_sigma_sdxlvae_T5_diffusers"
 
     SD = torch.load(CKPT_PATH, 'cpu')
