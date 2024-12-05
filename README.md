@@ -34,7 +34,7 @@ tar -xvf multi_turn.tar.gz
 Follow [this](https://github.com/McGill-NLP/AURORA?tab=readme-ov-file#training-data-aurora) for setting up AURORA training data
 
 
-We require all the dataset to be in the format required by Pixart-$\Sigma$. Example can be found [here](https://github.com/PixArt-alpha/PixArt-sigma/blob/master/asset/docs/convert_image2json.md). We provide the necessary `.json` files for both Seed-edit and Aurora datasets [here](https://csciitd-my.sharepoint.com/:f:/g/personal/aiz228170_iitd_ac_in/EtvsDFGW0kFFibI20yeckw8BpAwePzQ3bwiQuTeMPIjxNg?e=WsuMLU)
+We require all the dataset to be in the format required by Pixart-$`\Sigma`$. Example can be found [here](https://github.com/PixArt-alpha/PixArt-sigma/blob/master/asset/docs/convert_image2json.md). We provide the necessary `.json` files for both Seed-edit and Aurora datasets [here](https://csciitd-my.sharepoint.com/:f:/g/personal/aiz228170_iitd_ac_in/EtvsDFGW0kFFibI20yeckw8BpAwePzQ3bwiQuTeMPIjxNg?e=WsuMLU)
 
 
 You can additionally use the following command to convert any dataset of your choice in the required format.
@@ -68,4 +68,4 @@ python edit_image.py <image_path> <edit_instruction>
 - [ ] PixEdit-v2
 
 # Acknowledgements
-- Thanks to [Pixart-$\Sigma$](https://github.com/PixArt-alpha/PixArt-sigma) for their wonderful codebase!
+- Thanks to [Pixart-$`\Sigma`$](https://github.com/PixArt-alpha/PixArt-sigma) for their wonderful codebase!
