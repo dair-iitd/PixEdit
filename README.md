@@ -55,7 +55,7 @@ python -m torch.distributed.launch --nproc_per_node=8 \
 ```
 
 # Inference
-Download the v1 trained checkpoint and config [PixEdit-v1.pth](https://anon-cvpr.s3.eu-north-1.amazonaws.com/epoch_40_step_90041.pth), place it in `ckpt` folder.
+Download the v1 trained checkpoint [PixEdit-v1.pth](https://anon-cvpr.s3.eu-north-1.amazonaws.com/epoch_40_step_90041.pth), place it in `ckpt` folder.
 
 ```python
 python edit_image.py <image_path> <edit_instruction>
