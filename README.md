@@ -8,6 +8,7 @@ git clone https://github.com/dair-iitd/PixEdit
 cd PixEdit
 pip install -r requirements.txt
 
+pip install xformers==0.0.22.post4 --index-url https://download.pytorch.org/whl/cu118
 
 # SDXL-VAE, T5 checkpoints
 git lfs install

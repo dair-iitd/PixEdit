@@ -14,7 +14,6 @@ yapf==0.40.1
 opencv-python
 bs4
 einops
-xformers==0.0.22.post4 --index-url https://download.pytorch.org/whl/cu118
 optimum
 peft
 openai
