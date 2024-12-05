@@ -2,7 +2,7 @@
 ```python
 conda create -n pixedit python==3.9.0
 conda activate pixedit
-conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia
+conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=11.8 -c pytorch -c nvidia
 
 git clone https://github.com/dair-iitd/PixEdit
 cd PixEdit
