@@ -1,0 +1,8 @@
+ckpt/
+**/__pycache__/
+**/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+output/pretrained_models/
+output/*.png

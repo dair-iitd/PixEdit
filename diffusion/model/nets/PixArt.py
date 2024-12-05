@@ -134,7 +134,10 @@ class PixArt(nn.Module):
         self.initialize_weights()
 
         if config:
-            logger = get_root_logger(os.path.join(config.work_dir, 'train_log.log'))
+            try:
+                logger = get_root_logger(os.path.join(config.work_dir, 'train_log.log'))
+            except:
+                logger = get_root_logger()
             logger.warning(f"position embed interpolation: {self.pe_interpolation}, base size: {self.base_size}")
             logger.warning(f"kv compress config: {self.kv_compress_config}")
         else:
