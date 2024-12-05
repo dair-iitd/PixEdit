@@ -1,10 +1,10 @@
 mmcv==1.7.0
 git+https://github.com/huggingface/diffusers
 timm==0.6.12
-accelerate==0.25.0
+accelerate==1.1.1
 tensorboard
 tensorboardX
-transformers==4.36.1
+git+https://github.com/huggingface/transformers
 sentencepiece~=0.1.99
 ftfy
 beautifulsoup4
@@ -18,3 +18,4 @@ xformers==0.0.19
 optimum
 peft
 came-pytorch
+qwen-vl-utils
