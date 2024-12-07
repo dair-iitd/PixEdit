@@ -4,11 +4,17 @@ conda create -n pixedit python==3.9.0
 conda activate pixedit
 conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=11.8 -c pytorch -c nvidia
 
+#Install git, if not available
+conda install anaconda::git
+
 git clone https://github.com/dair-iitd/PixEdit
 cd PixEdit
 pip install -r requirements.txt
 
 pip install xformers==0.0.22.post4 --index-url https://download.pytorch.org/whl/cu118
+
+#Install git-lfs, if not available
+conda install anaconda::git-lfs
 
 # SDXL-VAE, T5 checkpoints
 git lfs install
