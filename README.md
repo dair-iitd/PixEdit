@@ -76,3 +76,9 @@ python edit_image.py <image_path> <edit_instruction>
 
 # Acknowledgements
 - Thanks to [Pixart-$`\Sigma`$](https://github.com/PixArt-alpha/PixArt-sigma) for their wonderful codebase!
+
+# Citation
+If you find this repository useful, please consider giving a star ⭐ and citation.
+```text
+Fill
+```
