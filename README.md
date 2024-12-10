@@ -80,5 +80,13 @@ python edit_image.py <image_path> <edit_instruction>
 # Citation
 If you find this repository useful, please consider giving a star ⭐ and citation.
 ```text
-Fill
+@misc{goswami2024grapegenerateplaneditframeworkcompositional,
+      title={GraPE: A Generate-Plan-Edit Framework for Compositional T2I Synthesis}, 
+      author={Ashish Goswami and Satyam Kumar Modi and Santhosh Rishi Deshineni and Harman Singh and Prathosh A. P and Parag Singla},
+      year={2024},
+      eprint={2412.06089},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.06089}, 
+}
 ```
