@@ -52,11 +52,12 @@ You can additionally use the following command to convert any dataset of your ch
 
 
 # Training 
-We performed all training on a 8xA100 server. Set `--nproc_per_node` according to your configuration.
+We performed all training on a 8xA100 server. Set `--nproc_per_node` according to your configuration.\
+Download the PixArt-Sigma Checkpoint from [here](https://huggingface.co/PixArt-alpha/PixArt-Sigma/blob/main/PixArt-Sigma-XL-2-512-MS.pth).
 ```python
 python -m torch.distributed.launch --nproc_per_node=8 \
     --master_port=12345 train_scripts/train.py \
-    configs/pixart_simga_config/editing_at_512.py \
+    configs/pixart_sigma_config/editing_at_512.py \
     --load-from output/pretrained_models/PixArt-Sigma-XL-2-512-MS.pth \
     --work-dir output/run1 --report_to wandb --tracker_project_name PixEdit
 ```
